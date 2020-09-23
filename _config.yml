@@ -100,7 +100,7 @@ miit:
 reward: true
 # true 开启打赏功能
 
-searchAll: false
+searchAll: true
 # true 启用全文搜索
 # 开启此功能需要下面操作：
 # 1. 在 hexo 根目录 执行 npm install hexo-generator-search --save 安装插件
@@ -183,7 +183,7 @@ highlight:
   on: true # true开启代码高亮，开启需要关闭博客 _config.yml 中的 highlight
   lineNum: false # true显示行号
   copy: true # 复制功能
-  theme: atom-light
+  theme: sublime
 # 代码高亮主题,效果可以查看 https://highlightjs.org/static/demo/
 # 支持主题：
 # sublime : 参考sublime的高亮主题
@@ -229,7 +229,7 @@ friends:
 ##########评论设置#############
 comment:
   on: true
-  type: disqus  # 评论系统：gitalk、disqus、gentie、gitment,注意：使用时，在下方对应位置进行配置
+  type: gitment  # 评论系统：gitalk、disqus、gentie、gitment,注意：使用时，在下方对应位置进行配置
   comment_count: true  # 文章标题下方显示评论数
   preload_comment: true  # 预加载评论区
   ## false: 当点击评论条等区域时再加载评论模块
@@ -266,8 +266,8 @@ gitalk:
 gitment:
   owner: AveryHuo
   repo: AveryHuo.github.io
-  client_id:
-  client_secret:
+  client_id: d1f648aedf12ef670b14
+  client_secret: 45c00de8643f55217b4fa2cebaec9088369c4a24
   # gitment : 通过github issue实现的评论系统
   # 开源地址 : https://github.com/imsun/gitment
   # 使用说明 :
