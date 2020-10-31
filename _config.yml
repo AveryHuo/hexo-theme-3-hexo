@@ -11,18 +11,18 @@ blog_path: /
 link:
   theme: color # 链接样式，color: 彩色图标  white: 黑白图标
   items:
-    rss: /atom.xml
+    rss: 
     github: https://github.com/AveryHuo
-    facebook: https://www.facebook.com/faker.tops
+    facebook: 
     twitter:
     linkedin:
-    instagram: https://www.facebook.com/faker.tops
-    reddit: https://www.reddit.com/user/yelog/
-    weibo: http://weibo.com/u/2307534817
-    jianshu: https://www.jianshu.com/u/ff56736de7cf
-    zhihu: https://www.zhihu.com/people/jaytp/activities
+    instagram: 
+    reddit: 
+    weibo: 
+    jianshu: https://www.jianshu.com/u/96df2dd41ded
+    zhihu: https://www.zhihu.com/people/alvinxiao-peng
     csdn:
-    oschina: https://my.oschina.net/yelog
+    oschina: https://my.oschina.net/u/138823
     juejin:
     email: 1024037035@qq.com
     qq: 1024037035
@@ -42,12 +42,20 @@ category:
   num: true # 分类显示文章数
   sub: true # 开启多级分类
   sort:
-    - 读书
-    - 工具
-    - 大前端
-    - 后端
-    - 数据库
-    - 运维
+    - IT阅读
+    - Unity
+    - 数据结构
+    - 数学
+    - 算法
+    - 图形学
+    - CPlusPlus
+    - Python
+    - Unity学习
+    - 英语学习
+    - IT阅读
+    - 杂项资料
+    - 公司
+    - 工作相关
   width:
     lg: 120 # 1468px<屏幕宽度 左侧分类宽度
     md: 100 # 1024px<屏幕宽度<=1468px 左侧分类宽度
@@ -181,9 +189,9 @@ code:
 
 highlight:
   on: true # true开启代码高亮，开启需要关闭博客 _config.yml 中的 highlight
-  lineNum: false # true显示行号
+  lineNum: true # true显示行号
   copy: true # 复制功能
-  theme: sublime
+  theme: atom-dark
 # 代码高亮主题,效果可以查看 https://highlightjs.org/static/demo/
 # 支持主题：
 # sublime : 参考sublime的高亮主题
